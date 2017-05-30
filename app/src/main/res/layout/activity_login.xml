@@ -29,6 +29,13 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_Senha" />
+            android:hint="@string/hint_Senha"
+            android:inputType="textPassword"/>
     </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logar"
+        android:text="@string/botao_login"/>
 </LinearLayout>
